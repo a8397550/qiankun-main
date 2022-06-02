@@ -1,8 +1,8 @@
 import { MicroApp } from 'umi';
+import React from 'react';
 import styles from './index.less';
 
 export default function IndexPage() {
-  console.log(location.href);
   return (
     <div>
       <MicroApp
