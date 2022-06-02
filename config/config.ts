@@ -4,6 +4,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  base: 'microApp',
   routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
   qiankun: {
