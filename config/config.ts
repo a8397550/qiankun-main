@@ -14,10 +14,13 @@ export default defineConfig({
         {
           name: 'app1', // 唯一 id
           entry: '//localhost:7001', // html entry
+          activeRule: '/appOne',
         },
         {
           name: 'app2', // 唯一 id
           entry: '//localhost:7002', // html entry
+          activeRule: '/yourActiveRule',
+          activeRule: '/appTwo',
         },
       ],
     },
